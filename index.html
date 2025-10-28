@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>autonomie.taxi</title>
+	<style>
+		/* Styles "pixel proches" de Notion (thème sombre) */
+		:root{
+			--bg: #0b0d10;        /* fond noir/gris très sombre */
+			--text: #e6e7e9;      /* texte principal */
+			--muted: #9aa0a6;     /* texte secondaire */
+			--link: #8ab4ff;      /* liens (proche Notion sombre) */
+			--visited: #b39ddb;   /* liens visités */
+			--border: #2a2f36;    /* séparateurs */
+		}
+		*{box-sizing:border-box}
+		html,body{margin:0;padding:0;background:var(--bg);color:var(--text)}
+		body{font:16px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Inter, Helvetica, Arial, "Noto Sans", sans-serif;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+
+		main{max-width:900px;margin:0 auto;padding:96px 96px}
+		@media (max-width:960px){main{padding:72px 48px}}
+		@media (max-width:640px){main{padding:56px 20px}}
+
+		/* Titre de page (comme le titre Notion en haut) */
+		.page-title{
+			display:flex;
+			align-items:center;
+			gap:10px;
+			font-weight:700;
+			font-size:40px; /* ≈ Notion Title */
+			line-height:1.2;
+			margin:0 0 14px;
+		}
+		.page-icon{
+			font-size:36px;
+			line-height:1;
+		}
+		.page-subtle-sep{
+			height:1px;background:transparent;margin:6px 0 12px;
+		}
+
+		/* Headings (proches des niveaux Notion) */
+		h1,h2,h3{font-weight:700;line-height:1.3;color:var(--text)}
+		h1{font-size:30px;margin:28px 0 8px}
+		h2{font-size:24px;margin:20px 0 6px}
+		h3{font-size:20px;margin:14px 0 2px}
+
+		/* Listes */
+		ul{margin:6px 0 12px 28px;padding:0}
+		li{margin:4px 0}
+
+		/* Liens */
+		a{color:var(--link);text-decoration:none}
+		a:hover{text-decoration:underline}
+		a:visited{color:var(--visited)}
+
+		/* Paragraphes, séparateurs */
+		p{margin:6px 0 12px}
+		hr{border:0;border-top:1px solid var(--border);margin:20px 0}
+	</style>
+</head>
+<body>
+	<main>
+		<div class="page-title">
+			<span class="page-icon" aria-hidden="true">🗺️</span>
+			<span>autonomie.taxi</span>
+		</div>
+		<div class="page-subtle-sep"></div>
+
+		<h1>collectifs</h1>
+
+		<h1>asie</h1>
+		<ul>
+			<li><a href="https://asian.anarchyplanet.org/" target="_blank" rel="noopener">The Asian Anarchy Magazine</a></li>
+		</ul>
+
+		<h2>chine</h2>
+		<ul>
+			<li><a href="https://chuangcn.org/" target="_blank" rel="noopener">Chuang</a></li>
+		</ul>
+
+		<h1>europe</h1>
+
+		<h2>france</h2>
+		<ul>
+			<li><a href="https://garap.org/" target="_blank" rel="noopener">GARAP</a></li>
+			<li><a href="https://seumrevolution.noblogs.org/" target="_blank" rel="noopener">Le SEUM</a></li>
+			<li><a href="https://mauvaissang.noblogs.org/" target="_blank" rel="noopener">Mauvais Sang</a></li>
+		</ul>
+
+		<h3>14 - Calvados</h3>
+		<ul>
+			<li>Local Apache</li>
+		</ul>
+
+		<h3>21 - Côte-d’Or</h3>
+		<ul>
+			<li><a href="https://tanneries.org/" target="_blank" rel="noopener">Les Tanneries</a></li>
+		</ul>
+
+		<h3>29 - Finistère</h3>
+		<ul>
+			<li><a href="https://www.instagram.com/ressac_brest/" target="_blank" rel="noopener">Ressac</a></li>
+		</ul>
+
+		<h3>30 - Gard</h3>
+		<ul>
+			<li><a href="https://laretive.info/" target="_blank" rel="noopener">La Rétive</a></li>
+		</ul>
+
+		<h3>35 - Ile-et-Vilaine</h3>
+		<ul>
+			<li><a href="https://loukanikos.noblogs.org/" target="_blank" rel="noopener">Loukanikos</a></li>
+			<li><a href="https://www.oizos.fr" target="_blank" rel="noopener">Les Oiseaux de la Tempête</a></li>
+		</ul>
+
+		<h3>44 - Loire-Atlantique</h3>
+		<ul>
+			<li><a href="https://linktr.ee/grevenantes" target="_blank" rel="noopener">Grève</a></li>
+		</ul>
+
+		<h3>49 - Maine-et-Loire</h3>
+		<ul>
+			<li><a href="https://raaf.noblogs.org/" target="_blank" rel="noopener">Réseau Angevin Antifasciste</a></li>
+		</ul>
+
+		<h3>59 - Nord</h3>
+		<ul>
+			<li><a href="https://anamorphose.noblogs.org/" target="_blank" rel="noopener">L'Anamorphose</a></li>
+		</ul>
+
+		<h3>62 - Pas-de-Calais</h3>
+		<ul>
+			<li><a href="https://lamouetteenragee.noblogs.org/" target="_blank" rel="noopener">La Mouette Enragée</a></li>
+		</ul>
+
+		<h3>73 - Savoie</h3>
+		<ul>
+			<li><a href="https://linsolente.lautre.net/" target="_blank" rel="noopener">L’insolente</a></li>
+		</ul>
+
+		<h3>75 - Paris</h3>
+		<ul>
+			<li><a href="https://lesfleursarctiques.noblogs.org/" target="_blank" rel="noopener">Les Fleurs Arctiques</a></li>
+			<li><a href="https://riposte-collective.org/bio/" target="_blank" rel="noopener">Riposte Collective</a></li>
+		</ul>
+
+		<h3>93 - Seine-Saint-Denis</h3>
+		<ul>
+			<li><a href="https://laparoleerrantedemain.org/" target="_blank" rel="noopener">La Parole Errante</a></li>
+		</ul>
+
+		<h2>royaume-uni</h2>
+		<ul>
+			<li><a href="https://www.angryworkers.org/" target="_blank" rel="noopener">Angry Workers</a></li>
+		</ul>
+
+		<h1>internet</h1>
+
+		<h2>.bzh</h2>
+		<ul>
+			<li><a href="http://agenda.arree.bzh" target="_blank" rel="noopener">agenda.arree.bzh</a></li>
+		</ul>
+
+		<h2>.es</h2>
+		<ul>
+			<li><a href="http://barbaria.net" target="_blank" rel="noopener">Barbaria</a></li>
+		</ul>
+
+		<h2>.international</h2>
+		<ul>
+			<li><a href="http://autistici.org/" target="_blank" rel="noopener">autistici.org</a></li>
+			<li><a href="https://www.autistici.org/tridnivalka/" target="_blank" rel="noopener">tridnivalka</a></li>
+		</ul>
+
+		<h2>.fr</h2>
+		<ul>
+			<li><a href="https://archivesautonomies.org/" target="_blank" rel="noopener">archivesautonomies.org</a></li>
+			<li><a href="https://ddt21.noblogs.org/" target="_blank" rel="noopener">ddt21.noblogs.org</a></li>
+			<li><a href="http://demosphere.net/" target="_blank" rel="noopener">demosphere.net</a></li>
+			<li><a href="http://dimanche.pm" target="_blank" rel="noopener">dimanche.pm</a></li>
+			<li><a href="http://dndf.org" target="_blank" rel="noopener">dndf.org</a></li>
+			<li><a href="http://infokiosques.net/" target="_blank" rel="noopener">infokiosques.net</a></li>
+			<li><a href="http://industrie.taxi" target="_blank" rel="noopener">industrie.taxi</a></li>
+			<li><a href="https://reseaumutu.info/" target="_blank" rel="noopener">reseaumutu.info</a></li>
+		</ul>
+		<ul>
+			<li><a href="http://basse-chaine.info/" target="_blank" rel="noopener">basse-chaine.info</a></li>
+			<li><a href="http://dijoncter.info" target="_blank" rel="noopener">dijoncter.info</a></li>
+			<li><a href="http://expansive.info/" target="_blank" rel="noopener">expansive.info</a></li>
+			<li><a href="http://iaata.info/" target="_blank" rel="noopener">iaata.info</a></li>
+			<li><a href="http://mars-infos.org/" target="_blank" rel="noopener">mars-infos.org</a></li>
+			<li><a href="https://paris-luttes.info/?lang=fr" target="_blank" rel="noopener">paris-luttes.info</a></li>
+			<li><a href="http://rebellyon.info/" target="_blank" rel="noopener">rebellyon.info</a></li>
+			<li><a href="http://trognon.info" target="_blank" rel="noopener">trognon.info</a></li>
+		</ul>
+		<ul>
+			<li><a href="https://sortirducapitalisme.fr/" target="_blank" rel="noopener">sortirducapitalisme.fr</a>
+		</ul>
+
+		<h2>.us</h2>
+		<ul>
+			<li><a href="https://crimethinc.com/" target="_blank" rel="noopener">crimethinc.com</a></li>
+			<li><a href="http://prole.info/" target="_blank" rel="noopener">prole.info</a></li>
+		</ul>
+
+		<h1>maisons d’édition</h1>
+
+		<h2>france</h2>
+		<ul>
+			<li><a href="https://editionsacratie.com/" target="_blank" rel="noopener">Acratie</a></li>
+			<li><a href="http://entremonde.net" target="_blank" rel="noopener">entremonde</a></li>
+			<li><a href="https://editionsasymetrie.org/" target="_blank" rel="noopener">L’Asymétrie</a></li>
+			<li><a href="https://niet-editions.fr/" target="_blank" rel="noopener">niet!éditions</a></li>
+		</ul>
+
+		<h1>radios</h1>
+		<ul>
+			<li><a href="https://www.youtube.com/@radio2k49" target="_blank" rel="noopener">Radio 2049</a></li>
+			<li><a href="https://www.radiomadmax.xyz/" target="_blank" rel="noopener">Radio Mad Max</a></li>
+		</ul>
+	</main>
+</body>
+</html>
